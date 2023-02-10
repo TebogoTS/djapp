@@ -30,7 +30,6 @@ spec:
       labels:
         app: ingress-gw
     spec:
-      serviceAccountName: my-jazz-v2
       containers:
         - name: envoy
           image: 840364872350.dkr.ecr.us-east-1.amazonaws.com/aws-appmesh-envoy:v1.24.0.0-prod
