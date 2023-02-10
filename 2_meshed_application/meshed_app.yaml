@@ -4,6 +4,7 @@ kind: Namespace
 metadata:
   name: dev
   labels:
+    gateway: ingress-gw
     mesh: dev-app
     appmesh.k8s.aws/sidecarInjectorWebhook: enabled
 ---
