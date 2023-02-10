@@ -171,6 +171,8 @@ metadata:
   labels:
     app: jazz
 spec:
+  selector:
+    app: jazz
   ports:
     - port: 9080
       name: http
