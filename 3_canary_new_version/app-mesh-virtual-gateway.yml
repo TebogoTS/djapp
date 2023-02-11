@@ -21,7 +21,7 @@ metadata:
   name: ingress-gw
   namespace: dev
 spec:
-  Service Account: my-jazz-v2
+  serviceAccountName: my-jazz-v2
   replicas: 2
   selector:
     matchLabels:
